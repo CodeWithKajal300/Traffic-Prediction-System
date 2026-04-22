@@ -5,6 +5,8 @@
 This project is a Machine Learning-based Traffic Prediction System developed using Flask.
 It allows users to upload datasets, train a model, predict traffic volume, and generate reports.
 
+💡 This project demonstrates how machine learning can be integrated with a web application to solve real-world traffic congestion problems.
+
 ---
 
 ## 🎯 Features
@@ -54,9 +56,11 @@ It allows users to upload datasets, train a model, predict traffic volume, and g
 ### Using Python
 
 1. Open terminal in project folder
-2. Run:
+2. Install required dependencies:
+   pip install -r requirements.txt
+3. Run the application:
    python app.py
-3. Open browser and go to:
+4. Open browser and go to:
    http://127.0.0.1:5000
 
 ---
@@ -77,6 +81,23 @@ It allows users to upload datasets, train a model, predict traffic volume, and g
 * Train model before prediction
 
 ---
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login](Login.jpg)
+
+### 🏠 Dashboard
+![Dashboard](Dashboard.jpg)
+
+### 📂 Upload Dataset
+![Upload](upload.jpg)
+
+### 🔮 Prediction Result
+![Prediction](predict.jpg)
+
+### 📈 Traffic Chart
+![Chart](Chart.jpg)
 
 ## 👩‍💻 Author
 
